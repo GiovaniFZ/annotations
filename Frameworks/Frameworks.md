@@ -1,0 +1,3 @@
+- SPA: Forma tradicional, back end se comunica com front-end
+- SSR: O Next é um intermediador entre front e back end. O Next buscará as informações e retornará ao front.
+- SSG: Conseguimos mandar um HTML estático pro usuário em um intervalo de tempo pré determinado.
