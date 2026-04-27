@@ -10,3 +10,8 @@
 - É reativo, sendo assim, atualiza a interface automaticamente quando o estado muda.
 - Unidirecional no fluxo de dados (pai para filho)
 - Usa o virtual DOM para atualizações
+
+# Componentes
+- Propriedades: São passados de pai para filho (lembrando da árvore de renderização, que é de cima para baixo)
+- Contexto: Dados passados de forma global
+- Os dois vivem juntos, e se completam (nem sempre é legal usar propriedades, nem sempre é legal utilizar contextos apenas).
