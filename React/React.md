@@ -15,3 +15,6 @@
 - Propriedades: São passados de pai para filho (lembrando da árvore de renderização, que é de cima para baixo)
 - Contexto: Dados passados de forma global
 - Os dois vivem juntos, e se completam (nem sempre é legal usar propriedades, nem sempre é legal utilizar contextos apenas).
+
+# IMPORTANTE
+- **SEMPRE** tentar reutilizar componentes. Não há por que criar outro HTML se o componente de uma página é muito parecido com outra página.
