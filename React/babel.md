@@ -16,3 +16,4 @@ function MyComponent() {
     });
 }
 ```
+- Ver: https://babeljs.io/repl
