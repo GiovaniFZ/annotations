@@ -56,9 +56,23 @@
 - Cada nó possui uma cópia do livro razão, sendo assim, qualquer modificação do livro seria reconhecida pelos nós.
 
 # Mineradores
-- São responsáveis por resolver um desafio (prova de trabalho) para cada transação, que consiste em incrementar o valor NONCE do bloco até que a hash do bloco apresente um determinado número de zeros iniciais. O primeiro que soluciona compartilha para os demais nós para validação.
+- São responsáveis por resolver um desafio (Proof of work ou prova de trabalho) para cada transação, que consiste em incrementar o valor NONCE do bloco até que a hash do bloco apresente um determinado número de zeros iniciais. O primeiro que soluciona compartilha para os demais nós para validação.
 - Mineração de dados exige alto poder computacional pois envolvem cálculos complexos. Dessa forma, o trabalho pode ser dividido.
 - Exemplo: Supondo que o desafio seja pegar uma palavra, e devemos fazer com que o target value seja 2 (ou seja, deve ter dois zeros iniciais). Para isso, usamos o nonce, que será adicionado na palavra. O computador precisa executar x vezes até que o hash comece com 2 zeros.
 - Ou seja, o **nonce** é o número de tentativas para se chegar em um hash válido.
 - Somente após 51% de validação, a transação é validada e o bloco é incluído na cadeia.
 - Ver: http://www.blockchain-basics.com/HashPuzzle.html
+
+# Aplicações
+1. Contratos digitais
+Exemplo: Venda de carro, não há intermediação. É apenas entre comprador e vendedor
+2. Documentos de pessoas  físicas
+É possível emitir alguns documentos pela blockchain, seguindo a mesma ideia de uma transação, ou seja, a mineração verificará se as informações da pessoa realmente são válidos. Enquanto que no modelo tradicional, os documentos são divididos entre os órgãos (exemplo: CNH pelo Detran), aqui como uma rede distribuída, eles ficam em um sistema unificado.
+3. Registro de imóveis
+4. Rastreabilidade na indústria
+No modelo tradicional, quando um pedido de venda é encaminhado ao setor de planejamento e controle de produção, ele é analisado para a alocação de recursos, como matéria prima e entre outros. Após a fabricação, o produto é encaminhado ao cliente. Com a blockchain, a alteração do modelo de produto seria mais rapidamente encaminhada ao setor de engenharia, e o defeito da parte do cliente poderia ser reportado. Ambos seriam um novo bloco de informações.
+
+# Profissões da blockchain
+1. Administrador da rede: Responsáveis pela configuração e gerenciamento da rede.
+2. Membros da rede: Realizam transações e compartilham dados com outros membros da rede.
+3. Provedores da nuvem: Suporte para operações realizadas na cadeia de blocos
