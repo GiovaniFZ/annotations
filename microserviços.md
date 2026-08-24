@@ -8,3 +8,19 @@
 | Mesmo BD      | BDs diferentes |
 | Mesma linguagem | Linguagens agnósticas |
 | Dependência de deploy | Independência de deploy |
+| Requer menos experiência | Requer mais experiência |
+
+# Vantagens e desvantagens - BE Monolítico
+| Vantagens | Desvantagens |
+| ------------- | ---------- |
+| Fácil de desenvolver | Dificulta escalabilidade independente |
+| Deploy facilitado | Falha em algum ponto afetará tudo |
+|  Bom para MVP     | Tecnologia única para tudo |
+
+# Vantagens e desvantagens - Microserviços
+| Vantagens | Desvantagens |
+| -------------- | -------------------|
+| Escalabilidade independente | Complexidade de rede |
+| Falhas isoladas | Debugging distribuído |
+| Tecnologias diversificadas | Consistência entre eventos |
+
